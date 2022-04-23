@@ -278,7 +278,7 @@ model = projTransformer(
 
 | Parameter | Description | Values |
 | ------ | ------ | ------ |
-| **model_type** | *choose the correct model for each dataset* | 'best', 'globalP', 'posSkip', 'DeepLncLoc', 'TF', 'DeepLncLoc_TF', 'onlyPromo', 'DeepLncLoc_Promoter' |
+| **model_type** | *choose the correct model for each dataset* | 'DeepLncLoc', 'DeepLncLoc_TF', 'DeepLncLoc_Promoter' |
 | **n_epochs** | *number of epochs* | int |
 | **batch_size** | *size of the batch* | int |
 | **maxlen** | *length of the sequence data* | int |
@@ -304,11 +304,6 @@ model = projTransformer(
 
 | model_type | Description | 
 | ------ | ------ |
-| **best** | *our transformer* |
-| **globalP** | *our transformer, with a global pooling after the transformer block* |
-| **posSkip** | *like model_type "best", but it skips only the positional embedding* |
-| **TF** | *our transformer, but it integrate also Transcription Factors data* |
-| **onlyPromo** | *our transformer, but only promoters as input* |
 | **DeepLncLoc** | *DeepLncLoc Transformer* |
 | **DeepLncLoc_TF** | *DeepLncLoc Transformer and as input promoters, Half-Life and TF data* |
 | **DeepLncLoc_onlyPromo** | *DeepLncLoc Transformer, but only promoters as input* |
