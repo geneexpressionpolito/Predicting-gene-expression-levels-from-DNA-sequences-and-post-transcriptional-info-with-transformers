@@ -462,23 +462,6 @@ When we started this project, the latest tensorflow version was 2.4.2, but after
         optimizer = "Adam"
         timestep = 210
         features = 64
-
-    Our_Transformer (projTransformer in Transformer.ipynb):
-        model_type = "best"
-        n_epochs = 300
-        batch_size = 256
-        learning_rate = 1e-3
-        patience = 20
-        optimizer = "SGD"
-        lr_reduction_epoch = 60
-        embed_dim = 32
-        num_heads = 1
-        vocab_size = 4 (#increase this value if you feed the network with more than 4 symbols)
-        ff_dim = 64
-        dense = 64
-        dropout_rate = 0.1
-        t_rate = 0.1
-        momentum = 0.9
     
     DivideEtImpera (projCNN1D in CNN1D.ipynb):
         model_type = "DivideEtImpera"
