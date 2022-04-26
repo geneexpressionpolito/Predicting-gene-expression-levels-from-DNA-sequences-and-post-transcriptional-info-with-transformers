@@ -491,7 +491,8 @@ When we started this project, the latest tensorflow version was 2.4.2, but after
 ### N.B:
 ### The parameters that are not present in these lists have to be assumed as the predefined parameters of the respective class.
 
-#Acknowledgement
+# Acknowledgement
+
 The data relating to the promoters are available thanks to the following publication:
   Agarwal V, Shendure J. [Predicting mRNA abundance directly from genomic sequence using deep convolutional neural networks](https://www.cell.com/cell-reports/pdf/S2211-1247(20)30616-1.pdf). 2020. Cell Reports 31 (7), 107663
 
