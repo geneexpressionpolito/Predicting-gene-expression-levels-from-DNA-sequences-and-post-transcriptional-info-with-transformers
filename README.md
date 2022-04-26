@@ -494,7 +494,7 @@ When we started this project, the latest tensorflow version was 2.4.2, but after
 # Acknowledgement
 
 The data relating to the promoters are available thanks to the following publication:
-  Agarwal V, Shendure J. [Predicting mRNA abundance directly from genomic sequence using deep convolutional neural networks](https://www.cell.com/cell-reports/pdf/S2211-1247(20)30616-1.pdf). 2020. Cell Reports 31 (7), 107663
+ - Agarwal V, Shendure J. [Predicting mRNA abundance directly from genomic sequence using deep convolutional neural networks](https://www.cell.com/cell-reports/pdf/S2211-1247(20)30616-1.pdf). 2020. Cell Reports 31 (7), 107663
 
 The data relating to the transcription factors are available thanks to the following work:
  - [Rouillard AD, Gundersen GW, Fernandez NF, Wang Z, Monteiro CD, McDermott MG, Ma'ayan A. The harmonizome: a collection of processed datasets gathered to serve and mine knowledge about genes and proteins. Database (Oxford). 2016 Jul 3;2016. pii: baw100](http://database.oxfordjournals.org/content/2016/baw100.short)
